@@ -103,7 +103,7 @@ void gnuplotError(const int bsNum,
    fprintf(gp, "set output \'bracketing.png\'\n");
    fprintf(gp, "set logscale y 10\n");
    fprintf(gp, "set grid\n");
-   fprintf(gp, "set ylabel \"Absolute error\"\n");
+   fprintf(gp, "set ylabel \"Error\"\n");
    fprintf(gp, "set xlabel \"#iteration\"\n");
    fprintf(gp, "p \'-\' w lp title \"bisection\"");
    fprintf(gp, ", \'-\' w lp title \"false-position\"");
