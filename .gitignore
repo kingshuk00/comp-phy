@@ -1,0 +1,8 @@
+# png files
+*.png
+
+# default executable
+a.out
+
+#emacs swap
+*~
